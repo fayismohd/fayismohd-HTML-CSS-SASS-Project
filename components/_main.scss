@@ -1,0 +1,53 @@
+.main {
+    background: $bg-color;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 50px;
+
+    .content {
+        padding: 60px;
+    }
+        h1 {
+            font-size: 60px;
+            margin-bottom: 20px;
+            color: $main-color;
+        }
+            p {
+                @extend h1;
+                font-size: 18px;
+            }
+
+            button {
+                padding: 10px 20px;
+                background-color: #ff0000;
+                border: none;
+                margin-left: 90px;
+                color: $main-color;
+                font-size: 18px;
+                cursor: pointer;
+                 transition: 0.3s;
+
+                 &:hover {
+                    background-color: #cc0000;
+                 }
+
+                 
+            }
+
+      .img-container {
+         display: grid; 
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 20px;
+        justify-content: center;
+        align-items: center; 
+
+         .product img {
+             width: 270%;
+             max-width: 500px;
+            height: auto;
+            object-fit: contain;
+                }
+            }
+}
