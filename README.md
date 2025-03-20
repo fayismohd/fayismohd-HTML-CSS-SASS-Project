@@ -19,5 +19,5 @@ This project is a **Nike-inspired landing page** designed to enhance UI/UX skill
 To run this project locally, follow these steps:
 
 ### 1️⃣ Clone the Repository
-```sh
+
 git clone https://github.com/fayismohd/fayismohd-HTML-CSS-SASS-Project.git
